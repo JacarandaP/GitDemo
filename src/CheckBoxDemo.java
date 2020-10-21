@@ -45,9 +45,11 @@ public class CheckBoxDemo extends JFrame implements ActionListener {
         }
         else if (yellow.isSelected() && !blue.isSelected() && !red.isSelected()){
             color.setText("yellow");
+            panel.setBackground(Color.YELLOW);
         }
         else if (!yellow.isSelected() && !red.isSelected() && !blue.isSelected()){
             color.setText("no color chosen");
+            color.setBackground(null);
         }
 
     }
