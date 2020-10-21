@@ -30,6 +30,7 @@ public class CheckBoxDemo extends JFrame implements ActionListener {
         pack();
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        //example
 
     }
 
