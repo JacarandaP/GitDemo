@@ -19,6 +19,7 @@ public class Listeners extends JFrame {
 
         panel.setLayout(new FlowLayout());
         panel.add(button);
+        panel.setBackground(Color.GRAY);
         add(panel);
         button.setBackground(null);
         button.addMouseListener(myMouse);
