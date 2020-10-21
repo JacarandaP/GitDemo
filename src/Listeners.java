@@ -32,6 +32,7 @@ public class Listeners extends JFrame {
         @Override
         public void mouseEntered(MouseEvent e) {
         button.setBackground(Color.RED);
+        button.setText("red");
         }
 
         @Override
